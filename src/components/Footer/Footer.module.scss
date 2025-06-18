@@ -1,0 +1,57 @@
+@use '../../styles/var';
+
+.footer {
+  background-color: var.$sub-bg-color;
+
+  &_container {
+    padding: 80px var.$x-padding;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+  }
+}
+
+.content {
+  display: flex;
+  width: 100%;
+
+  &_container {
+    flex: 1;
+  }
+}
+
+.logo {
+  display: block;
+  width: 53px;
+  height: 40px;
+}
+
+.copyright {
+  margin-top: 60px;
+  font-size: var.$sub-font-size;
+}
+
+.social {
+  flex: 1 0;
+
+  &_list {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
+
+  &_link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &_link:hover span {
+    text-decoration: underline;
+  }
+}
+
+.link_text {
+  color: var.$white-font-color;
+  font-size: var.$sub-font-size;
+}

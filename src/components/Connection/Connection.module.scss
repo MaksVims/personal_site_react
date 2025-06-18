@@ -1,0 +1,20 @@
+@use '../../styles/var';
+
+.connection_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 180px;
+}
+
+.content {
+  flex: 45%;
+  padding-right: 50px;
+}
+
+.interface {
+  flex: 50% 0;
+}
+
+.text {
+  margin-top: 30px;
+}

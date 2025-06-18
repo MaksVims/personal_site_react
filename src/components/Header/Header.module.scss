@@ -1,0 +1,27 @@
+@use '../../styles/var';
+
+.header {
+  background: var.$bg-gradient;
+  height: 87px;
+
+  &_container {
+    padding: 0 var.$x-padding;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.menu_list {
+  display: flex;
+}
+
+.menu_link {
+  padding: 33px 24px;
+  transition: background-color .3s;
+
+  &:hover {
+    background-color: var.$primary-color;
+    transition: background-color .3s;
+  }
+}

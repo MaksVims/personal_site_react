@@ -1,0 +1,25 @@
+$main-bg-color: #000000;
+$sub-bg-color: #181823;
+$light-bg-color: #FFF3E4;
+$white-bg-color: #ffffff;
+
+$primary-color: #5221E6;
+
+$white-font-color: #ffffff;
+$black-font-color: #000000;
+$grey-font-color: #5B6876;
+$main-font-color: #8491A0;
+
+$main-font-size: 18px;
+$sub-font-size: 16px;
+
+$title-font-size: 48px;
+$subtitle-font-size: 24px;
+
+$x-padding: 72px;
+$y-padding: 120px;
+
+$bg-gradient: linear-gradient(90deg,
+        $main-bg-color 0%,
+        $main-bg-color 36%,
+        $sub-bg-color 36%);

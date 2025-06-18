@@ -1,0 +1,39 @@
+@use '../../../styles/var';
+
+.svg {
+  &_github {
+    fill: var.$primary-color;
+  }
+
+  &_vk {
+    fill: #5061FF;
+  }
+
+  &_whatsapp {
+    fill: #2A9827;
+  }
+
+  &_telegram {
+    fill: #4897F3;
+  }
+}
+
+a:hover .svg_github {
+  transition: fill .3s;
+  fill: #7551e2;
+}
+
+a:hover .svg_vk {
+  transition: fill .3s;
+  fill: #6d7bfd;
+}
+
+a:hover .svg_whatsapp {
+  transition: fill .3s;
+  fill: #69bd66;
+}
+
+a:hover .svg_telegram {
+  transition: fill .3s;
+  fill: #77adeb;
+}

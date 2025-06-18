@@ -1,0 +1,33 @@
+@use '../../styles/var';
+
+.about {
+  background-color: var.$light-bg-color;
+
+  &_container {
+    display: flex;
+    min-height: 600px;
+  }
+}
+
+.content {
+  flex: 1;
+  padding: 0 var.$x-padding;
+  padding-top: 120px;
+}
+
+.picture {
+  flex: 1;
+}
+
+.image {
+  max-width: none;
+}
+
+.title {
+  color: var.$black-font-color;
+}
+
+.text {
+  color: var.$grey-font-color;
+  margin-top: 30px;
+}

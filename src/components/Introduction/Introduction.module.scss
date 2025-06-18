@@ -1,0 +1,44 @@
+@use '../../styles/var';
+
+.introduction {
+  background: var.$bg-gradient;
+  height: calc(100vh - 87px);
+
+  &_container {
+    padding: var.$y-padding var.$x-padding;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &_container::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 650px / 2);
+    width: 720px;
+    height: 650px;
+    background-image: url('../../assets/photo.jpg');
+    background-size: cover;
+    backdrop-filter: blur(100%);
+  }
+
+  &_title {
+    padding-left: 42%;
+  }
+
+  &_text {
+    color: var.$white-font-color;
+    opacity: .5;
+    margin-top: 40px;
+  }
+}
+
+.main_title {
+  font-size: 64px;
+  font-weight: bold;
+  color: var.$white-font-color;
+  opacity: .5;
+}

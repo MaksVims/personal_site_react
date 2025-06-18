@@ -1,0 +1,84 @@
+@use 'var';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var.$main-bg-color;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+p,
+span,
+a {
+  font-family: 'Sen', sans-serif;
+  font-weight: normal;
+  color: var.$main-font-color;
+  font-size: var.$main-font-size;
+  line-height: 150%;
+}
+
+a {
+  font-size: var.$sub-font-size;
+  color: var.$white-font-color;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: var.$title-font-size;
+  color: var.$white-font-color;
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+}
+
+button,
+textarea,
+input {
+  border: none;
+  outline: none;
+}
+
+img {
+  object-fit: fill;
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+svg {
+  height: 30px;
+  width: 30px;
+  transition: fill .3s;
+}
+
+.ant-carousel .slick-dots li.slick-active::after {
+  height: 15px !important;
+}
+
+:where(.css-dev-only-do-not-override-36gkoj).ant-carousel .slick-dots li button {
+  height: 15px;
+}
+
+:where(.css-dev-only-do-not-override-36gkoj).ant-carousel .slick-dots li {
+  height: 15px;
+}

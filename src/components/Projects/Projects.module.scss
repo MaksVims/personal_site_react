@@ -1,0 +1,54 @@
+@use '../../styles/var';
+
+.projects {
+  &_container {
+    padding: var.$y-padding var.$x-padding 140px;
+  }
+}
+
+.slider_wrap {
+  background-color: var.$sub-bg-color;
+  padding-top: 10px;
+}
+
+.content {
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: var.$main-font-color;
+  font-size: var.$sub-font-size;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  margin-top: 16px;
+}
+
+.slider {
+  margin-top: 50px;
+}
+
+.picture_1,
+.picture_2,
+.picture_3,
+.picture_4 {
+  height: 620px;
+}
+
+.picture_1 {
+  background: url('../../assets/project-1.png');
+}
+
+.picture_2 {
+  background: url('../../assets/project-2.png');
+}
+
+.picture_3 {
+  background: url('../../assets/project-3.png');
+}
+
+.picture_4 {
+  background: url('../../assets/project-4.png');
+}
